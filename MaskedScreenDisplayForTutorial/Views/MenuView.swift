@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  MenuView.swift
 //  MaskedScreenDisplayForTutorial
 //
-//  Created by Takuya Aso on 2023/05/22.
+//  Created by Takuya Aso on 2023/05/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct MenuView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -19,8 +19,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MenuView()
     }
 }
