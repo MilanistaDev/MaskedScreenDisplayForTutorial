@@ -16,31 +16,33 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack {
-                    Image(systemName: "globe")
-                        .imageScale(.large)
-                        .foregroundColor(.accentColor)
-                    Text("Hello, world!")
-                }
-                .padding()
-
-                Spacer()
+                gridView()
             }
             .navigationTitle("Home")
+        }
+        .onAppear {
+            setContents()
         }
     }
 }
 
 extension HomeView {
-
+    /// グリッド形式のリスト
     private func gridView() -> some View {
         LazyVGrid(columns: columns, spacing: 12.0) {
-            ForEach(, id: \.self) { news in
-                StationNewsRowView(stationNewsInfo: news)
+            ForEach(contents, id: \.self) { content in
+                HomeContentRow(content: content)
             }
         }
         .padding(.horizontal, 20.0)
-        .padding(.bottom, 20.0)
+        .padding(.vertical, 20.0)
+    }
+}
+
+extension HomeView {
+    /// サンプルデータをセット
+    private func setContents() {
+        contents = sampleContents
     }
 }
 

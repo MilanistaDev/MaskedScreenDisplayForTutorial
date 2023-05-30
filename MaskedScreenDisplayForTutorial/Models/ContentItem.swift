@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct ContentItem {
+struct ContentItem: Hashable {
     var image: String
     var title: String
     var description: String
 }
 
+// 初期表示に用いるサンプルデータ
 let sampleContents: [ContentItem] = [
     ContentItem(
         image: "img_news_01",
@@ -36,4 +37,5 @@ let sampleContents: [ContentItem] = [
     ),
 ]
 
+// ボタンタップで追加されるダミーコンテンツ
 let dummyContent = ContentItem(image: "img_news_00", title: "Title", description: "body text")
