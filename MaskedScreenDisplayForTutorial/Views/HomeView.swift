@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
+
+    private let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+
+    @State private var contents: [ContentItem] = []
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -23,6 +28,19 @@ struct HomeView: View {
             }
             .navigationTitle("Home")
         }
+    }
+}
+
+extension HomeView {
+
+    private func gridView() -> some View {
+        LazyVGrid(columns: columns, spacing: 12.0) {
+            ForEach(, id: \.self) { news in
+                StationNewsRowView(stationNewsInfo: news)
+            }
+        }
+        .padding(.horizontal, 20.0)
+        .padding(.bottom, 20.0)
     }
 }
 
