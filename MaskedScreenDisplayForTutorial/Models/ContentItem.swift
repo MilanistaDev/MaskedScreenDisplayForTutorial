@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ContentItem: Hashable {
+struct ContentItem {
     var image: String
     var title: String
     var description: String

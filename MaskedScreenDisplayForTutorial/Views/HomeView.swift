@@ -15,8 +15,14 @@ struct HomeView: View {
 
     var body: some View {
         NavigationView {
-            ScrollView {
-                gridView()
+            ZStack(alignment: .bottomTrailing) {
+                ScrollView {
+                    gridView()
+                }
+
+                FloatingActionButton {
+                    addDummyContent()
+                }
             }
             .navigationTitle("Home")
         }
@@ -30,8 +36,8 @@ extension HomeView {
     /// グリッド形式のリスト
     private func gridView() -> some View {
         LazyVGrid(columns: columns, spacing: 12.0) {
-            ForEach(contents, id: \.self) { content in
-                HomeContentRow(content: content)
+            ForEach(0..<contents.count, id: \.self) { index in
+                HomeContentRow(content: contents[index])
             }
         }
         .padding(.horizontal, 20.0)
@@ -43,6 +49,11 @@ extension HomeView {
     /// サンプルデータをセット
     private func setContents() {
         contents = sampleContents
+    }
+
+    /// タップでダミーコンテンツ追加
+    private func addDummyContent() {
+        contents.append(dummyContent)
     }
 }
 
