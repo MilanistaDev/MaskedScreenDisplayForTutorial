@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD9A0A862A2699A9009F2AAB /* View+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A0A852A2699A9009F2AAB /* View+Transition.swift */; };
 		FDF488932A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF488922A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift */; };
 		FDF488972A1B3060004CCE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF488962A1B3060004CCE10 /* Assets.xcassets */; };
 		FDF4889A2A1B3060004CCE10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF488992A1B3060004CCE10 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD9A0A852A2699A9009F2AAB /* View+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Transition.swift"; sourceTree = "<group>"; };
 		FDF4888F2A1B305F004CCE10 /* MaskedScreenDisplayForTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskedScreenDisplayForTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF488922A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskedScreenDisplayForTutorialApp.swift; sourceTree = "<group>"; };
 		FDF488962A1B3060004CCE10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				FDFB9B1D2A268C8E00E4818D /* UIApplication+Window.swift */,
+				FD9A0A852A2699A9009F2AAB /* View+Transition.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				FDF488AA2A1D5599004CCE10 /* HomeView.swift in Sources */,
 				FDFB9B192A2644BF00E4818D /* HomeContentRow.swift in Sources */,
 				FDF488932A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift in Sources */,
+				FD9A0A862A2699A9009F2AAB /* View+Transition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
