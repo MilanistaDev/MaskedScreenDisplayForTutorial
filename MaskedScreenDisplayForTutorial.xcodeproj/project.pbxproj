@@ -16,6 +16,7 @@
 		FDF488AC2A1D55D1004CCE10 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF488AB2A1D55D1004CCE10 /* MenuView.swift */; };
 		FDFB9B172A25D66600E4818D /* ContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB9B162A25D66600E4818D /* ContentItem.swift */; };
 		FDFB9B192A2644BF00E4818D /* HomeContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */; };
+		FDFB9B1B2A267D8E00E4818D /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB9B1A2A267D8E00E4818D /* FloatingActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FDF488AB2A1D55D1004CCE10 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		FDFB9B162A25D66600E4818D /* ContentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItem.swift; sourceTree = "<group>"; };
 		FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentRow.swift; sourceTree = "<group>"; };
+		FDFB9B1A2A267D8E00E4818D /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,9 @@
 			children = (
 				FDF488A42A1D37D3004CCE10 /* MainView.swift */,
 				FDF488A92A1D5599004CCE10 /* HomeView.swift */,
-				FDF488AB2A1D55D1004CCE10 /* MenuView.swift */,
 				FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */,
+				FDFB9B1A2A267D8E00E4818D /* FloatingActionButton.swift */,
+				FDF488AB2A1D55D1004CCE10 /* MenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				FDFB9B172A25D66600E4818D /* ContentItem.swift in Sources */,
 				FDF488AC2A1D55D1004CCE10 /* MenuView.swift in Sources */,
 				FDF488A82A1D37FD004CCE10 /* TabType.swift in Sources */,
+				FDFB9B1B2A267D8E00E4818D /* FloatingActionButton.swift in Sources */,
 				FDF488A52A1D37D3004CCE10 /* MainView.swift in Sources */,
 				FDF488AA2A1D5599004CCE10 /* HomeView.swift in Sources */,
 				FDFB9B192A2644BF00E4818D /* HomeContentRow.swift in Sources */,
