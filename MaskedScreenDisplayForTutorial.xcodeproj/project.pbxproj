@@ -15,6 +15,7 @@
 		FDF488AA2A1D5599004CCE10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF488A92A1D5599004CCE10 /* HomeView.swift */; };
 		FDF488AC2A1D55D1004CCE10 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF488AB2A1D55D1004CCE10 /* MenuView.swift */; };
 		FDFB9B172A25D66600E4818D /* ContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB9B162A25D66600E4818D /* ContentItem.swift */; };
+		FDFB9B192A2644BF00E4818D /* HomeContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FDF488A92A1D5599004CCE10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FDF488AB2A1D55D1004CCE10 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		FDFB9B162A25D66600E4818D /* ContentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItem.swift; sourceTree = "<group>"; };
+		FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FDF488A42A1D37D3004CCE10 /* MainView.swift */,
 				FDF488A92A1D5599004CCE10 /* HomeView.swift */,
 				FDF488AB2A1D55D1004CCE10 /* MenuView.swift */,
+				FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				FDF488A82A1D37FD004CCE10 /* TabType.swift in Sources */,
 				FDF488A52A1D37D3004CCE10 /* MainView.swift in Sources */,
 				FDF488AA2A1D5599004CCE10 /* HomeView.swift in Sources */,
+				FDFB9B192A2644BF00E4818D /* HomeContentRow.swift in Sources */,
 				FDF488932A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
