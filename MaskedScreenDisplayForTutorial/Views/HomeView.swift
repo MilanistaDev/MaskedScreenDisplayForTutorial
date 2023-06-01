@@ -12,6 +12,7 @@ struct HomeView: View {
     private let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
 
     @State private var contents: [ContentItem] = []
+    @State private var isPresented = false
 
     var body: some View {
         NavigationView {
@@ -28,6 +29,16 @@ struct HomeView: View {
         }
         .onAppear {
             setContents()
+            displayTransparentBlackScreen()
+        }
+        .presentWithOverFullScreen(isPresented: $isPresented) {
+            Color.black
+                .opacity(0.5)
+                .ignoresSafeArea()
+                .onTapGesture {
+                    // 画面タップで元の画面表示
+                    dismissScreen(isAnimated: false)
+                }
         }
     }
 }
@@ -54,6 +65,14 @@ extension HomeView {
     /// タップでダミーコンテンツ追加
     private func addDummyContent() {
         contents.append(dummyContent)
+    }
+
+    /// 透過した黒い画面を表示
+    private func displayTransparentBlackScreen() {
+        // 1秒後に透過した黒い画面を表示
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            isPresented = true
+        }
     }
 }
 
