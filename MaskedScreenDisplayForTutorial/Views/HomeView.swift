@@ -34,6 +34,7 @@ struct HomeView: View {
         .presentWithOverFullScreen(isPresented: $isPresented) {
             Color.black
                 .opacity(0.5)
+                .mask(MaskedCircleView())
                 .ignoresSafeArea()
                 .onTapGesture {
                     // 画面タップで元の画面表示

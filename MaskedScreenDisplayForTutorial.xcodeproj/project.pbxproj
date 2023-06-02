@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD13F68A2A28D8A30018BA77 /* MaskedCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13F6892A28D8A30018BA77 /* MaskedCircleView.swift */; };
 		FD9A0A862A2699A9009F2AAB /* View+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A0A852A2699A9009F2AAB /* View+Transition.swift */; };
 		FDF488932A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF488922A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift */; };
 		FDF488972A1B3060004CCE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF488962A1B3060004CCE10 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD13F6892A28D8A30018BA77 /* MaskedCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskedCircleView.swift; sourceTree = "<group>"; };
 		FD9A0A852A2699A9009F2AAB /* View+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Transition.swift"; sourceTree = "<group>"; };
 		FDF4888F2A1B305F004CCE10 /* MaskedScreenDisplayForTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskedScreenDisplayForTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF488922A1B305F004CCE10 /* MaskedScreenDisplayForTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskedScreenDisplayForTutorialApp.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				FDF488A92A1D5599004CCE10 /* HomeView.swift */,
 				FDFB9B182A2644BF00E4818D /* HomeContentRow.swift */,
 				FDFB9B1A2A267D8E00E4818D /* FloatingActionButton.swift */,
+				FD13F6892A28D8A30018BA77 /* MaskedCircleView.swift */,
 				FDF488AB2A1D55D1004CCE10 /* MenuView.swift */,
 			);
 			path = Views;
@@ -197,6 +200,7 @@
 				FDFB9B172A25D66600E4818D /* ContentItem.swift in Sources */,
 				FDF488AC2A1D55D1004CCE10 /* MenuView.swift in Sources */,
 				FDF488A82A1D37FD004CCE10 /* TabType.swift in Sources */,
+				FD13F68A2A28D8A30018BA77 /* MaskedCircleView.swift in Sources */,
 				FDFB9B1B2A267D8E00E4818D /* FloatingActionButton.swift in Sources */,
 				FDF488A52A1D37D3004CCE10 /* MainView.swift in Sources */,
 				FDF488AA2A1D5599004CCE10 /* HomeView.swift in Sources */,
