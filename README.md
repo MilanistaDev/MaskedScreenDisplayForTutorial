@@ -52,8 +52,9 @@ Study the following implementation points.
 
 ## Article
 
-**Zenn**  
-[TBD]()
+**Zenn(Japanese only)**  
+
+https://zenn.dev/milanista224/articles/swiftui-masked-screen-display-for-tutorial
 
 
 ## Contact
