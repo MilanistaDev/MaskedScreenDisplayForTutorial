@@ -32,14 +32,7 @@ struct HomeView: View {
             displayTransparentBlackScreen()
         }
         .presentWithOverFullScreen(isPresented: $isPresented) {
-            Color.black
-                .opacity(0.5)
-                .mask(MaskedCircleView())
-                .ignoresSafeArea()
-                .onTapGesture {
-                    // 画面タップで元の画面表示
-                    dismissScreen(isAnimated: false)
-                }
+            SpotlightFilterView()
         }
     }
 }
